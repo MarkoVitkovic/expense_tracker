@@ -12,7 +12,7 @@
 * [Contact](#contact)
 
 ## General info
-App that track expenses. Made for study react. In this project I use react hooks(useState, useContext, useReducer) and context API. 
+App that track expenses. Made for study react. In this project I use react hooks(useState, useContext, useReducer) and context API. Feel fre to clone or download this repo.
 
 ## Screenshots
 ![](https://github.com/MarkoVitkovic/react-expense_tracker/blob/master/img.png)
