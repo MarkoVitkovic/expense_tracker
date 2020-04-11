@@ -1,5 +1,5 @@
 # Expense Tracker
-> Project made with react. Expense tracker.
+> Project that track expenses, you can add or delete transaction.
 
 ## Table of contents
 * [General info](#general-info)
@@ -50,48 +50,36 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Code Examples
 Code:</br>
-`case 'DELETE_TRANSACTION':`
-            `return {`
-                `...state,`
-                `transaction: state.transaction.filter(transaction => transaction.id !== action.payload)`
-            `}`
-        `case 'ADD_TRANSACTION' :`
-            `return {`
-               ` ...state,`
-                `transaction: [action.payload,...state.transaction]`
-            `}`
-        `default:`
-            `return state;`
+`case 'DELETE_TRANSACTION':`</br>
+            `return {`</br>
+                `...state,`</br>
+                `transaction: state.transaction.filter(transaction => transaction.id !== action.payload)`</br>
+            `}`</br>
+        `case 'ADD_TRANSACTION' :`</br>
+            `return {`</br>
+               ` ...state,`</br>
+                `transaction: [action.payload,...state.transaction]`</br>
+            `}`</br>
+        `default:`</br>
+            `return state;`</br>
             
-<code>case 'DELETE_TRANSACTION':
-            return {
-                ...state,
-                transaction: state.transaction.filter(transaction => transaction.id !== action.payload)
-            }
-        case 'ADD_TRANSACTION' :
-            return {
-                ...state,
-                transaction: [action.payload,...state.transaction]
-            }
-        default:
-            return state;</code>
 
 ## Features
 List of features ready and TODOs for future development
-* Check cases
-* Confirmed cases
-* Recovered cases
-* Deaths
-* Graph
+* Add transaction
+* Remove transaction
+* Balance
+* Income
+* Expenses
 
 To-do list:
-* none
+* Backend
 
 ## Status
 Project is: _finished_
 
 ## Inspiration
-Credits: [mathdroid](https://github.com/mathdroid/covid-19-api) for an awesome api
+Credits: [Traversy Media](https://www.youtube.com/user/TechGuyWeb)
 
 ## Contact
 Created by [Marko Vitkovic](https://github.com/MarkoVitkovic) - feel free to contact me!
