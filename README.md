@@ -20,8 +20,8 @@ Full stack(mern) expense tracker, now connected to database on mongodb, full and
 
 ## Technologies
 * [Node.js](https://nodejs.org/en/docs/) - version 13
-* [Express]
-* [MongoDB]
+* [Express]()
+* [MongoDB]()
 
 ## Setup
 Open terminal(cmd) and navigate:</br>
@@ -83,9 +83,10 @@ List of features ready and TODOs for future development
 * Balance
 * Income
 * Expenses
+* Full stack app
 
 To-do list:
-* Backend
+* none
 
 ## Status
 Project is: _finished_
