@@ -20,9 +20,8 @@ Full stack(mern) expense tracker, now connected to database on mongodb, full and
 
 ## Technologies
 * [Node.js](https://nodejs.org/en/docs/) - version 13
-* [Express]()
-* [MongoDB]()
-
+* [Express](https://expressjs.com/en/api.html) - version 4.x
+* [mongoDB](https://www.mongodb.com/cloud/atlas/lp/try2?utm_source=google&utm_campaign=gs_footprint_row_search_brand_atlas_desktop&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&gclid=EAIaIQobChMIubLRzaa06AIVArDtCh2MgwEKEAAYASAAEgLyjvD_BwE)
 ## Setup
 Open terminal(cmd) and navigate:</br>
 `npx create-react-app my-app`</br>
