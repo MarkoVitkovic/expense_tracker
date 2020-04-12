@@ -1,5 +1,5 @@
 # Expense Tracker
-> Project that track expenses, you can add or delete transaction.
+> Full stack app, add backend api with express and mongodb.
 
 ## Table of contents
 * [General info](#general-info)
@@ -12,18 +12,16 @@
 * [Contact](#contact)
 
 ## General info
-App that track expenses. Made for study react. In this project I use react hooks(useState, useContext, useReducer) and context API. Feel fre to clone or download this repo.
+Full stack(mern) expense tracker, now connected to database on mongodb, full and finish backend. Feel free to download or clone this repo.
 
 ## Screenshots
 ![](https://github.com/MarkoVitkovic/react-expense_tracker/blob/master/img.png)
+![](https://github.com/MarkoVitkovic/node.js_express_mongodb-backend_for_expense_tracker/blob/master/img1.png)
 
 ## Technologies
-* [React](https://reactjs.org/docs/getting-started.html) - version 16.13.1
 * [Node.js](https://nodejs.org/en/docs/) - version 13
-* [CSS](https://devdocs.io/css/) - version 3
-* [React-dom](https://github.com/facebook/react) - version 16.13.1
-
-
+* [Express]
+* [MongoDB]
 
 ## Setup
 Open terminal(cmd) and navigate:</br>
@@ -36,12 +34,26 @@ Open source in Visual Studio Code.
 
 In the project directory, you can run:
 
-npm start</br>
-npm test</br>
-npm run build</br>
-npm run eject</br>
-npm run build
-
+ npm install<br/>
+ cd client npm install<br/>
+ cd ..<br/>
+ 
+ Run front and backend<br/>
+ npm run dev<br/>
+ 
+ Backend only<br/>
+ npm run server<br/>
+ 
+ Frontend only<br/>
+ npm run client<br/>
+ 
+ Build client<br/>
+ cd client<br/>
+ npm run build<br/>
+ 
+ Prod<br/>
+ npm start<br/>
+ 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
